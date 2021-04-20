@@ -9,6 +9,6 @@ public class Test {
 		BeanFactory factory=new XmlBeanFactory(r);  
 
 		A a=factory.getBean("proxy",A.class);  
-		a.m();  
+		a.m();   
 	}  
 }

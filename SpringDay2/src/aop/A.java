@@ -6,6 +6,6 @@ public class A {
 		System.out.println("actual business logic");
 		
 		
-	}
+	} 
 
 }
