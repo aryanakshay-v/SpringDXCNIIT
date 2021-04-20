@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="studentbean" class="basics.Student">
+		<property name="name" value="Akshay"></property>
+	</bean>
+
+
+	<bean id="employee" class="constructor.injection.Employee">
+		<constructor-arg value="10" type="int"></constructor-arg>
+		<constructor-arg value="akshay"></constructor-arg>
+	</bean>
+
+	<bean id="questionbean" class="constructor.injection.Question">
+		<constructor-arg value="111"></constructor-arg>
+		<constructor-arg value="Where do you Live?"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<value>I live in Asia</value>
+				<value>In India</value>
+				<value>In AndhraPradesh</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+
+
+
+</beans> 
