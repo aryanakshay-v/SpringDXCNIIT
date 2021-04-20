@@ -1,4 +1,4 @@
-package aop;
+package aop.xml;
 import java.lang.reflect.Method;  
 import org.springframework.aop.MethodBeforeAdvice;  
 public class BeforeAdvisor implements MethodBeforeAdvice{  
