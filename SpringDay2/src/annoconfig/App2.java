@@ -9,7 +9,7 @@ public class App2 {
 		ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);
 		Samsung s8 = factory.getBean(Samsung.class);
 		
-		s8.config();
+		s8.config() ;
 	}
 
 }

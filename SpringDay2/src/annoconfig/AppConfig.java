@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "annoconfig")
-public class AppConfig {
+public class AppConfig  {
 	
 	/*@Bean
 	public Samsung getPhone()
