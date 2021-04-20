@@ -2,14 +2,17 @@ package aop.model;
 
 public class Circle {
 	
-	String circle;
+	String name;
 
-	public String getCircle() {
-		return circle;
+	public String getName() {
+		return name;
 	}
 
-	public void setCircle(String circle) {
-		this.circle = circle;
+	public void setName(String name) {
+		this.name = name;
 	}
+	
+	
+
 
 }
