@@ -2,6 +2,10 @@ package aop.model;
 
 public class Triangle {
 	String name;
+	public Triangle()
+	{
+		System.out.println("in Triangle constructor");
+	}
 
 	public String getName() {
 		return name;
