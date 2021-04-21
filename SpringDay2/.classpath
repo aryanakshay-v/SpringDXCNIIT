@@ -72,5 +72,6 @@
 	<classpathentry kind="lib" path="C:/Users/Aryan Akshay/Downloads/Compressed/spring-framework-5.3.6/libs/spring-websocket-5.3.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Aryan Akshay/Downloads/Compressed/spring-framework-5.3.6/libs/spring-websocket-5.3.6-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Aryan Akshay/Downloads/Compressed/spring-framework-5.3.6/libs/spring-websocket-5.3.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aryan Akshay/Downloads/aspectjweaver-1.9.6 (1).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
