@@ -14,6 +14,12 @@ import aop.model.Circle;
 
 @Aspect
 public class LoggingAspect {
+	
+	public void myLogginAdvice() {
+		System.out.println("my logging advice");
+	}
+	
+	
 	//one aspect can contain multiple advices
 
 	//@Before("execution(* aop.model..*.*(..))")   --- for all methods of all classes present in this package and its subpackages
