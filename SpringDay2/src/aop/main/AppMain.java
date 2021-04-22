@@ -9,7 +9,7 @@ public class AppMain {
 		
 		ShapeService shapeService = context.getBean("shapeService",ShapeService.class);
 		
-		System.out.println(shapeService.getTriangle().setName("isoceless"));
+		//System.out.println(shapeService.getTriangle().setName("isoceless"));
 		
 		//System.out.println(shapeService.getCircle().getDia());
 		
